@@ -13,5 +13,7 @@ urlpatterns = [
     
 ]
 
-# handler404 = 'base.Routes.study.fournotfourerror'
 handler500 = 'base.Routes.study.fivehundrederror'
+handler404 = 'base.Routes.study.fournotfourerror'
+handler403 = 'base.Routes.study.fournotthree'
+handler400 = 'base.Routes.study.fourhundred'
