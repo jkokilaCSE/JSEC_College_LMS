@@ -9,7 +9,7 @@ from django.contrib.auth.decorators import login_required, user_passes_test
 from django.http import JsonResponse
 
 
-
+ 
 def add_faculty(request):
     facultys = Faculty_details.objects.all()
     for i in facultys:
